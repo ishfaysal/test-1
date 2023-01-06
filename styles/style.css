@@ -1,23 +1,84 @@
-*{
+*{  margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
-.header{
+.banner{
     display: flex;
     background-size: cover;
-    height: 800px;
+    height: 700px;
     background-image: url(../images/banner/banner1.png);
 }
 .btn{
+    width: 170px;
     height: 40px;
     border-radius: 5px;
     background: #FD6E0A;
+    border: 0;
 }
-.container{
+.header{
     position: relative;
     text-align: right;
     margin: 400px 50px 700px 800px;
 }
 /* main */
 .plans{
-    background-image: url(../images/person.png);
+    background-image: url(../images/person.png);background-size: 40%;
+    background-repeat: no-repeat;
+    height: 800px;
+    font-weight: 700;
+    display: flex;
+    margin-left: 150px;
 }
+.plans-title{
+    
+}
+.plans-info{
+    position: relative;
+    text-align: canter;
+    
+    
+    margin-top: 400px;
+    margin-left: 700px;
+    margin-right: 200px;
+    margin-bottom: 800px;
+}
+.plans-container{
+    display: flex;
+    justify-content: space-between;
+   
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 200px;
+    gap: 40px;
+    
+}
+.container{
+    text-align: center;
+}
+.box{
+    border-radius: 8px;
+    height: 300px;
+    text-align: left;
+    background-image:
+    linear-gradient(to left, rgba(255, 255, 255, 0), rgba(247, 121, 3, 0.842)),
+    url('/images/watch.png');
+    background-repeat: no-repeat;
+    margin: 0 175px 50px;
+    color: #ffffff;
+}
+.box-title{
+    width: 459px;
+    margin-top: 50px;
+    margin-left: 170px;
+    
+}
+.btn2{
+    margin-left: 190px;
+    height: 40px;
+    border-radius: 8px;
+    border: 0;
+    background: #ffffff;
+    color: #FD6E0A;
+    width: 120px;
+}
+
