@@ -1,0 +1,23 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+.header{
+    display: flex;
+    background-size: cover;
+    height: 800px;
+    background-image: url(../images/banner/banner1.png);
+}
+.btn{
+    height: 40px;
+    border-radius: 5px;
+    background: #FD6E0A;
+}
+.container{
+    position: relative;
+    text-align: right;
+    margin: 400px 50px 700px 800px;
+}
+/* main */
+.plans{
+    background-image: url(../images/person.png);
+}
