@@ -67,13 +67,14 @@
     color: #ffffff;
 }
 .box-title{
+    font-size:xx-large;
     width: 459px;
-    margin-top: 50px;
-    margin-left: 170px;
+    margin-left: 130px;
     
+    padding-top: 60px;
 }
 .btn2{
-    margin-left: 190px;
+    margin-left: 130px;
     height: 40px;
     border-radius: 8px;
     border: 0;
@@ -81,4 +82,29 @@
     color: #FD6E0A;
     width: 120px;
 }
-
+/* footer */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 100;
+    padding-top: 30px;
+    padding-left: 100px;
+    color: #ffffff;
+    background-color: rgb(19, 19, 34);
+}
+.future{
+    padding-right: 400px;
+}
+.subscribe{
+    margin-right: 200px;
+    
+}
+.btn3{
+    margin-top: 10px;
+    height: 40px;
+    border-radius: 8px;
+    border: 0;
+    background: #ffffff;
+    color: #FD6E0A;
+    width: 120px;
+}
