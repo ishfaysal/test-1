@@ -54,6 +54,7 @@
 }
 .container{
     text-align: center;
+    font-size: 30px;
 }
 .box{
     border-radius: 8px;
@@ -61,7 +62,7 @@
     text-align: left;
     background-image:
     linear-gradient(to left, rgba(255, 255, 255, 0), rgba(247, 121, 3, 0.842)),
-    url('/images/watch.png');
+    url('../images/watch.png');
     background-repeat: no-repeat;
     margin: 0 175px 50px;
     color: #ffffff;
